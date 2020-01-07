@@ -1,4 +1,4 @@
-from helloworld import Hello
+import Hello
 import unittest
 
 
