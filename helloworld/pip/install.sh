@@ -1,1 +1,7 @@
-pip install flask
+workon HelloWorld
+if [ $? -eq 0 ]; # if exit status of workon is not 0
+then
+  mkvirtualenv HelloWorld
+  setprojectdir .
+  pip install flask
+fi
