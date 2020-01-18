@@ -3,5 +3,5 @@ if [ $? -eq 0 ]; # if exit status of workon is not 0
 then
   mkvirtualenv HelloWorld
   setprojectdir .
-  pip install flask
+  pip3 install flask
 fi
